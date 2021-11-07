@@ -4,10 +4,12 @@ import "../App.css";
 const Bottom = (props) => {
   console.log(props);
 
+  const increase = props.increase;
+
   return (
     <div>
       <h1 className="sub-container">Bouttom</h1>
-      <button onClick={props.increase}>증가</button>
+      <button onClick={increase}>증가</button>
     </div>
   );
 };
