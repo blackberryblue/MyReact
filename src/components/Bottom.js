@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import SubBottom from "./SubBottom";
 //  버튼 증가 버튼!!
 const Bottom = (props) => {
   console.log(props);
@@ -9,12 +10,15 @@ const Bottom = (props) => {
   // const increase = props.increase;
 
   //구조 분할 할당
-  const { id, nanme, increase } = props;
+  // const { increase } = props;
+
+  const { increase } = props;
 
   return (
-    <div>
-      <h1 className="sub-container">Bouttom</h1>
-      <button onClick={increase}>증가</button>
+    <div className="sub-container">
+      <h1>Bouttom</h1>
+      {/* <button onClick={increase}>증가</button> */}
+      <SubBottom subIncrease={increase} />
     </div>
   );
 };

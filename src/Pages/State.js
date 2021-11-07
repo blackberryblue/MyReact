@@ -4,7 +4,7 @@ import Top from "../components/Top";
 import "../App.css";
 
 const State = () => {
-  const [number, setNumber] = useState(100);
+  const [number, setNumber] = useState(1004);
 
   const increase = () => {
     setNumber(number + 1);
