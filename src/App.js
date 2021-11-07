@@ -1,12 +1,14 @@
 import React from "react";
 import Input from "./Pages/Input";
 import Method from "./Pages/Method";
+import State from "./Pages/State";
 
 const App = () => {
   return (
     <div>
       {/* <Method /> */}
-      <Input />
+      {/* <Input /> */}
+      <State />
     </div>
   );
 };
