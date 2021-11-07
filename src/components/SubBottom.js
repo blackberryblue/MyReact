@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { increase } from "../store";
 
-const SubBottom = (props) => {
+const SubBottom = () => {
   // const [init, setInit] = useState(`SubTop 반영 : ${122}`);
 
-  const { subIncrease } = props;
+  const dispatcher = useDispatch();
 
   return (
     <div>
-      <button onClick={subIncrease}>서브 Bottom</button>
+      <button onClick={() => dispatcher(increase())}>서브 Bottom</button>
     </div>
   );
 };
