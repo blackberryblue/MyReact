@@ -4,7 +4,12 @@ import "../App.css";
 const Bottom = (props) => {
   console.log(props);
 
-  const increase = props.increase;
+  // const id = props.id;
+  // const name = props.name;
+  // const increase = props.increase;
+
+  //구조 분할 할당
+  const { id, nanme, increase } = props;
 
   return (
     <div>
