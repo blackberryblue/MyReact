@@ -30,3 +30,5 @@ const Lbf = () => {
     </div>
   );
 };
+
+export default Lbf;
