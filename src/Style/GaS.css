@@ -1,0 +1,29 @@
+.box4 {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+}
+.box4:nth-child(3) {
+  background-color: red;
+  flex-grow: 2;
+  flex-shrink: 4;
+}
+
+.wrapper4 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 33px;
+  align-items: center;
+  background-color: yellowgreen;
+  width: 750px;
+  height: 800px;
+}
+
+.center {
+  display: flex;
+  background-color: yellow;
+  max-width: 1030px;
+  flex-direction: column;
+  margin: auto;
+}

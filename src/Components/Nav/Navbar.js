@@ -10,6 +10,8 @@ const Navbar = () => {
       <Link to="/MainAxis">Main Axis and Cross Axis</Link>
       {" | "}
       <Link to="/AlineSelf">AlineSelf</Link>
+      {" | "}
+      <Link to="/flex-grow,shrink">flex-grow and Shrink</Link>
     </nav>
   );
 };
