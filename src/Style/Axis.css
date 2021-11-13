@@ -1,0 +1,22 @@
+.box {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: brown;
+  height: 800px;
+}
+
+.center {
+  display: flex;
+  background-color: aquamarine;
+  max-width: 1030px;
+  flex-direction: column;
+  margin: auto;
+}
