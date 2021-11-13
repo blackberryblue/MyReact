@@ -8,6 +8,8 @@ const Navbar = () => {
       <Link to="/FristRuleofFlexbox">FirstRouleofFlexbox</Link>
       {" | "}
       <Link to="/MainAxis">Main Axis and Cross Axis</Link>
+      {" | "}
+      <Link to="/AlineSelf">AlineSelf</Link>
     </nav>
   );
 };

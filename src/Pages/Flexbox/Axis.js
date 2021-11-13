@@ -8,6 +8,8 @@ const Axis = () => {
       <p>
         justify-content 는 main Axis | align-items는 cross Axis width or
         height가 있어야 cross Axis가 적용된다.
+        <br />
+        flex-direction을 변경하면서 위치 연습을 해보자
       </p>
       <div className="wrapper">
         <div className="box"></div>
