@@ -19,7 +19,10 @@ const Lbf = () => {
       <div className="box2"></div>
       <div className="box2"></div>
 
-      <h2>3번째 box를 페이지 마지막에 두기~</h2>
+      <h2>
+        4번째 box를 페이지 마지막에 두기~ :.box3:nth-of-type(4)가 적용이 되지
+        않는다.
+      </h2>
       <div className="box3"></div>
       <div className="box3"></div>
       <div className="box3"></div>
@@ -27,5 +30,3 @@ const Lbf = () => {
     </div>
   );
 };
-
-export default Lbf;
